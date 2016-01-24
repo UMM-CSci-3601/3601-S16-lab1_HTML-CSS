@@ -1,25 +1,24 @@
 
 /*Color Scheme:
-Dark Brn: B26100
-Lt Org: FF9619
-Drk Org: FF8A00
-Drk Blu: 007BB2
-Lt Blu: 03B0FF
+Turq: #217C7E
+Wht: #F3EFE0
+Blu: #3399FF
+Red: #9A3334
 */
 
 body {
-    background-color:#FF8A00;
+    background-color:#217C7E;
 }
 
 #wrapper {
-    background-color: white;
+    background-color: #9A3334;
     width: 80%;
     max-width: 900px;
     padding: 5px;
     margin: 0 auto;
     font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
     font-size: 1em;
-    border: 1px solid #FF8A00;
+    border: 1px solid #F3EFE0;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -28,7 +27,7 @@ body {
 #wrapper #header {
     padding: 10px;
     height: 80px;
-    background-color: lawngreen;
+    background-color: #3399FF;
     -webkit-border-top-left-radius: 15px;
     -moz-border-top-left-radius: 15px;
     border-top-left-radius: 15px;
@@ -141,6 +140,7 @@ body {
 }
 
 #wrapper #footer {
+    background-color: #3399FF;
     padding-top: 15px;
 }
 
