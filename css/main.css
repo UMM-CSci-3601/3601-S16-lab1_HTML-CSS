@@ -14,7 +14,7 @@ body {
 #wrapper {
     background-color: white;
     width: 80%;
-    max-width: 900px;
+    max-width: 906px;
     padding: 5px;
     margin: 0 auto;
     font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
@@ -26,8 +26,7 @@ body {
 }
 
 #wrapper #header {
-    padding: 10px;
-    height: 80px;
+
     background-color: lawngreen;
     -webkit-border-top-left-radius: 15px;
     -moz-border-top-left-radius: 15px;
@@ -35,28 +34,12 @@ body {
     -webkit-border-top-right-radius: 15px;
     -moz-border-top-right-radius: 15px;
     border-top-right-radius: 15px;
+    display: inline-block;
 
 }
 
-#wrapper #header #title {
-    font-size: 3em;
-    line-height: 80px;
-    width: 25%;
-}
-
-#wrapper #header #logo {
-    width: 25%;
-}
-
-#wrapper #header #logo img {
-    max-height: 80px;
-}
-
-#wrapper #header #description {
-    font-size: 2em;
-    text-align: left;
-    vertical-align: middle;
-    display: table-cell;
+#wrapper #header img {
+    width: 100%;
 }
 
 #wrapper #navbar {
