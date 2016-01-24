@@ -97,6 +97,10 @@ body {
     margin: 0 auto;
 }
 
+#wrapper #social img {
+    border-style: none;
+}
+
 #wrapper #products .left {
     width: 25%;
 }
@@ -131,6 +135,6 @@ body {
     clear: both;
 }
 
-#wrapper #main h1 {
+#wrapper #main h1, #wrapper #main h2 {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
