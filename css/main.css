@@ -1,61 +1,37 @@
 
 /*Color Scheme:
-Turq: #217C7E
-Wht: #F3EFE0
-Blu: #3399FF
-Red: #9A3334
+Dark Brn: B26100
+Lt Org: FF9619
+Drk Org: FF8A00
+Drk Blu: 007BB2
+Lt Blu: 03B0FF
 */
 
 body {
-    background-color:#217C7E;
+    background-color:#FF8A00;
 }
 
 #wrapper {
-    background-color: #9A3334;
-    width: 80%;
-    max-width: 900px;
+    background-color: white;
+    width: 95%;
+    max-width: 906px;
     padding: 5px;
     margin: 0 auto;
-    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     font-size: 1em;
-    border: 1px solid #F3EFE0;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
+    border: 1px solid #FF8A00;
     border-radius: 15px;
 }
 
 #wrapper #header {
-    padding: 10px;
-    height: 80px;
-    background-color: #3399FF;
-    -webkit-border-top-left-radius: 15px;
-    -moz-border-top-left-radius: 15px;
+    background-color: lawngreen;
     border-top-left-radius: 15px;
-    -webkit-border-top-right-radius: 15px;
-    -moz-border-top-right-radius: 15px;
     border-top-right-radius: 15px;
-
+    display: inline-block;
 }
 
-#wrapper #header #title {
-    font-size: 3em;
-    line-height: 80px;
-    width: 25%;
-}
-
-#wrapper #header #logo {
-    width: 25%;
-}
-
-#wrapper #header #logo img {
-    max-height: 80px;
-}
-
-#wrapper #header #description {
-    font-size: 2em;
-    text-align: left;
-    vertical-align: middle;
-    display: table-cell;
+#wrapper #header img {
+    width: 100%;
 }
 
 #wrapper #navbar {
@@ -88,7 +64,7 @@ body {
     background-color: #dddddd;
     text-decoration: none;
     color: #000000;
-    font-size: 1.3em;
+    font-size: 1.2vmax;
 }
 
 #wrapper #navbar a:hover {
@@ -102,22 +78,13 @@ body {
 #wrapper #main {
     padding-left: 10px;
     padding-right: 10px;
-    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 
 
 #wrapper #main #mission, #wrapper #main #products, #wrapper #main #employees, #wrapper #main #social {
     text-align: center;
-}
-
-#wrapper #products #column {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
 }
 
 #wrapper #products li {
@@ -140,55 +107,30 @@ body {
 }
 
 #wrapper #footer {
-    background-color: #3399FF;
-    padding-top: 15px;
+    padding-top: 20px;
+    font-size: 1.2em;
 }
 
 .left {
     float: left;
+    width: 50%;
+    text-align: center;
 }
 
 .right {
     float: right;
-}
-
-.left50 {
-    float: left;
     width: 50%;
     text-align: center;
 }
 
-.right50 {
-    float: right;
-    width: 50%;
-    text-align: center;
-}
-
-.clear {
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
     clear: both;
 }
 
 #wrapper #main h1 {
-    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
-
-/* h2 {
-    color: red;
-    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
-}
-
-p {
-    font-family: monospace;
-}
-
-img {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.centerText {
-    text-align: center;
-}
-*/
