@@ -1,4 +1,7 @@
 # CSCI 3601 Lab #1 - HTML and CSS Lab
+
+This was created by Shawn Seymour and Nate Perfetti - 1/24/16.
+
 In this lab you will learn to create a simple website using HTML and CSS, following best practices
 and using validated code, all while maintaining good version control using WebStorm's git/GitHub integration.  
 
